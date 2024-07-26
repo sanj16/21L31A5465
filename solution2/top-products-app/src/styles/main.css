@@ -1,0 +1,31 @@
+/* src/styles/main.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-detail img {
+    max-width: 100%;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter input, .filter select {
+    margin-right: 10px;
+    padding: 5px;
+}
